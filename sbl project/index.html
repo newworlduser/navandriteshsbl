@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GEN-Z TRENDS | Ecommerce Website Design</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="./assets/images/logo1.jpg" alt="" width="125px" /></a>
+          <p>GEN-Z TRENDZ</p>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about" onclick="scrollToAbout()">About</a></li>
+            <li><a href="#follow-us" onclick="scrollToFollowUs()">Contact</a></li>
+          </ul>
+        </nav>
+        <img src="./assets/images/menu.png" alt="" class="menu-icon" onclick="menutoggle()" />
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h1>Give your Workout<br />a new Style!</h1>
+          <p>Discover the latest trends in workout apparel and accessories.</p>
+          <a href="#featured-products" class="btn" onclick="scrollToFeaturedProducts()">Explore Now &#8594;</a>
+        </div>
+        <div class="col-2">
+          <img src="./assets/images/image1.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Us Section -->
+  <div id="about" class="about">
+    <div class="small-container">
+      <h2 class="title">About Us</h2>
+      <p>
+        We are dedicated to providing high-quality workout apparel and accessories to our customers. Our mission is to help you achieve your fitness goals with style and comfort.
+      </p>
+    </div>
+  </div>
+
+  <!-- Featured Categories -->
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="./assets/images/category-1.jpg" alt="" />
+        </div>
+        <div class="col-3">
+          <img src="./assets/images/category-2.jpg" alt="" />
+        </div>
+        <div class="col-3">
+          <img src="./assets/images/category-3.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured Products -->
+  <div id="featured-products" class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <!-- Product 1 -->
+      <div class="col-4">
+        <a href="product-details.html"><img src="./assets/images/product-1.jpg" alt="" /></a>
+        <h4>Red Printed T-shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>₹400.00</p>
+      </div>
+      <!-- Product 2 -->
+      <div class="col-4">
+        <img src="./assets/images/product-2.jpg" alt="" />
+        <h4>Black Shoes</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>₹375.00</p>
+      </div>
+      <!-- Product 3 -->
+      <div class="col-4">
+        <img src="./assets/images/product-3.jpg" alt="" />
+        <h4>Black Joggers</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>₹450.00</p>
+      </div>
+      <!-- Product 4 -->
+      <div class="col-4">
+        <img src="./assets/images/product-4.jpg" alt="" />
+        <h4>Blue Checked Shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>₹375.00</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Latest Products -->
+  <div class="small-container">
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <!-- Product 5 -->
+      <div class="col-4">
+        <img src="./assets/images/product-5.jpg" alt="" />
+        <h4>Grey Shoes</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>₹320.00</p>
+      </div>
+      <!-- Product 6 -->
+      <div class="col-4">
+        <img src="./assets/images/product-6.jpg" alt="" />
+        <h4>Black T-shirt</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>₹280.00</p>
+      </div>
+      <!-- Product 7 -->
+      <div class="col-4">
+        <img src="./assets/images/product-7.jpg" alt="" />
+        <h4>Pair of Socks</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>₹400.00</p>
+      </div>
+      <!-- Product 8 -->
+      <div class="col-4">
+        <img src="./assets/images/product-8.jpg" alt="" />
+        <h4>Black Watch</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>₹480.00</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Offer Section -->
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src="./assets/images/exclusive.png" class="offer-img" alt="" />
+        </div>
+        <div class="col-2">
+          <p>Exclusively available on RedStore</p>
+          <h1>Smart Band 4</h1>
+          <small>Enhance your fitness journey with the latest smart band technology.</small>
+          <a href="" class="btn">TOP OF THE PAGE&#8594;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <div class="testimonial">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Great products! They've really helped me stay motivated on my fitness journey.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="./assets/images/user-1.png" alt="" />
+          <h3>Sean Parker</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>I love the quality of the products and the variety they offer. Highly recommended!</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="./assets/images/user-2.png" alt="" />
+          <h3>Michel Joe</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>Their customer service is exceptional. Always quick to respond and resolve any issues.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <img src="./assets/images/user-3.png" alt="" />
+          <h3>Kaily Jenner</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brands -->
+  <div class="brands" id="follow-us">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-5">
+          <img src="./assets/images/logo-godrej.png" alt="" />
+        </div>
+        <div class="col-5">
+          <img src="./assets/images/logo-oppo.png" alt="" />
+        </div>
+        <div class="col-5">
+          <img src="./assets/images/logo-paypal.png" alt="" />
+        </div>
+        <div class="col-5">
+          <img src="./assets/images/logo-philips.png" alt="" />
+        </div>
+        <div class="col-5">
+          <img src="./assets/images/logo-coca-cola.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android <br />and iOS mobile phone</p>
+          <div class="app-logo">
+            <img src="./assets/images/play-store.png" alt="" />
+            <img src="./assets/images/app-store.png" alt="" />
+            
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="./assets/images/logo1.jpg" alt="" />
+          <p>Stay updated with our latest products and offers.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="../assets/js/toggleMenu.js"></script>
+  <script>
+    function scrollToAbout() {
+      document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function scrollToFollowUs() {
+      document.getElementById('follow-us').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function scrollToFeaturedProducts() {
+      document.getElementById('featured-products').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function redirectToProducts() {
+      window.location.href = "products.html";
+    }
+
+    function redirectToAccount() {
+      window.location.href = "account.html";
+    }
+  </script>
+</body>
+</html>
